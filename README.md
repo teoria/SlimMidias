@@ -25,6 +25,9 @@ Depois de instalar o Composer, execute este comando a partir do diretório em qu
 
 * Aponte seu documento raiz host virtual para o diretório do seu novo aplicativo `public/`
 
+
 :D
+
 Rodrigo Carneiro
+
 www.midiaseducativas.com.br
