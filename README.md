@@ -6,7 +6,7 @@ Arquitetura da empresa Mídias Educativas para projetos PHP baseada em Slim Fram
 
 ## SlimMidias Application
 
-Use esta arquitetura para configurar rapidamente e começar a trabalhar em uma nova aplicação com Slim Framework. Esta aplicação utiliza as últimas Slim e Slim-Views repositórios. Ele também usa [Twig] (http://twig.sensiolabs.org) biblioteca de modelos Sensio Labs.
+Use esta arquitetura para configurar rapidamente e começar a trabalhar em uma nova aplicação com Slim Framework. Esta aplicação utiliza os repositórios Slim e Slim-Views. Ele também usa [Twig] (http://twig.sensiolabs.org), biblioteca de modelos Sensio Labs.
 
 Esta aplicação esqueleto foi construída para Composer. Isso faz com que a criação de uma nova aplicação SlimMidias seja rápida e fácil.
 
