@@ -10,7 +10,7 @@
 $routes = array(
     '/' => '',
     
-    '/teste'=> "MainController:teste@get" //TODO: TEMPORÁRIO
+    '/teste'=> "MainController:teste@get" // Classe :  Método  @ tipo Action
 
 
     /*'/demo' => array(
@@ -19,7 +19,7 @@ $routes = array(
     ) */
 );
 
-$erroHendler = "MainController:notFound";
+$erroHandler = "MainController:notFound";
 
 $basePath = "http://localhost/SlimMidias/public/";
 
