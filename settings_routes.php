@@ -28,6 +28,6 @@ $baseClass = "MainController";  // Método index da classe MainController será 
 
 $erroHandler = "MainController:notFound";
 
-$basePath = "http://localhost/SlimMidias/public/";
+$basePath = "http://localhost/SlimMidias/public/"; // Diretório base para os arquivos de imagem, css e js.  
 
 $debug = true;
