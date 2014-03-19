@@ -22,7 +22,7 @@
     <div class="container">
         <div class="navbar-header">
 
-            <a class="navbar-brand" href="#">Saúde na Copa</a>
+            <a class="navbar-brand" href="#">NOME DA APP/a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
