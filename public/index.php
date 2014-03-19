@@ -18,6 +18,9 @@ if($debug){
 
 $router = new Router();
 
+
+$router->setBaseClass($baseClass);
+
 $router->setBasePath($basePath);
 
 $router->addRoutes($routes);
