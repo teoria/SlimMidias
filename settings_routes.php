@@ -10,7 +10,8 @@
 $routes = array(
     '/' => '',
     
-    '/teste'=> "MainController:teste@get" // Classe :  Método  @ tipo Action
+    '/teste'=> "MainController:teste@get", // Classe :  Método  @ tipo Action
+    '/rest'=> "MainController:rest@get" // Classe :  Método  @ tipo Action
 
 
     /*'/demo' => array(
