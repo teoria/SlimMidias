@@ -21,6 +21,13 @@ Class MainController extends Controller {
         );
     }
 
+    public function rest() {
+
+        $retorno = array ("nome"=>"SlimMidias" , "descricao"=>"Exemplo de JSON");
+
+        echo json_encode($retorno);
+    }
+    
     public function notFound() {
 
         $this->render("error.php", array(), 404);
