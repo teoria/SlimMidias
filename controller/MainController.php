@@ -28,6 +28,20 @@ Class MainController extends Controller {
         echo json_encode($retorno);
     }
     
+    public function testeGet($id) {
+
+        $retorno = array ("nome"=>"SlimMidias" , "id"=>"$id","params GET"=>$this->request->get());
+
+        echo json_encode($retorno);
+    }
+
+    public function testePost($id) {
+
+        $retorno = array ("nome"=>"SlimMidias" , "id"=>"$id","params POST"=>$this->request->post());
+
+        echo json_encode($retorno);
+    }
+
     public function notFound() {
 
         $this->render("error.php", array(), 404);
