@@ -19,6 +19,8 @@ $routes = array(
     ) */
 );
 
+$baseClass = "MainController";  // Método index da classe MainController será invocado quando o route "/" for chamado
+
 $erroHandler = "MainController:notFound";
 
 $basePath = "http://localhost/SlimMidias/public/";
