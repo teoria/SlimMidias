@@ -10,7 +10,7 @@ Class Controller extends \Slim\Slim
         $settings = array(
             'view' => new \Slim\Views\Twig(),
             'debug' => true,
-            'templates.path' => '../views'
+            'templates.path' => '../app/views'
 
         );
 
