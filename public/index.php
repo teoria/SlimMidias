@@ -7,8 +7,8 @@ require '../vendor/autoload.php';
 require("../settings_routes.php");
 
 $autoloadManager = new autoloadManager(null, autoloadManager::SCAN_ONCE);
-$autoloadManager->addFolder('../controller');
-$autoloadManager->addFolder('../model');
+$autoloadManager->addFolder('../app/controller');
+$autoloadManager->addFolder('../app/model');
 $autoloadManager->register();
 
 
