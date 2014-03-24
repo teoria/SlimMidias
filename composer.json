@@ -1,5 +1,5 @@
 {
-	"name": "midiasEducativas/slimMidias",
+	"name": "midias-educativas/slim-midias",
 	"type": "library",
 	"description": "Arquitetura da empresa Mídias Educativas para projetos PHP com Slim Framework",
 	"keywords": ["microframework","rest","router"],
