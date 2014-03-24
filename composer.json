@@ -1,18 +1,24 @@
 {
-	"name": "midiasEducativas/slim-mvc",
+	"name": "midiasEducativas/slimMidias",
+	"type": "library",
+	"description": "Slim Framework, a PHP micro framework",
+	"keywords": ["microframework","rest","router"],
+	"homepage": "http://github.com/codeguy/Slim",
+	"license": "MIT",
+	"authors": [
+	        {
+	            "name": "Rodrigo Carneiro",
+	            "email": "teoria@gmail.com",
+	            "homepage": "http://www.midiaseducativas.com.br/"
+	        }
+	],
 	"require": {
-
-        "slim/slim": "2.*",
-        "slim/views": "0.*",
-        "twig/twig": "1.*"
+		"php": ">=5.3.0"
 	},
+	"suggest": {
+        	"ext-mcrypt": "Required for HTTP cookie encryption"
+	 },
 	"autoload": {
-
-        "classmap":[
-            "slimMidias"
-        ]
-
-
-
+	        "psr-0": { "SlimMidias": "." }
 	}
 }
