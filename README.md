@@ -26,6 +26,8 @@ Depois de instalar o Composer, execute este comando a partir do diretório em qu
 * Aponte seu documento raiz host virtual para o diretório do seu novo aplicativo `public/`
 
 
+Exemplo de uso em  https://github.com/teoria/Slim-MidiasEdu
+
 :D
 
 Rodrigo Carneiro
