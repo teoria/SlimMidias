@@ -13,13 +13,17 @@
 	        }
 	],
 	"require": {
-		"slim/slim": ">=2.0.0",
+		"slim/slim": ">=2.4.0",
 		"php": ">=5.3.0"
 	},
 	"suggest": {
-        	"ext-mcrypt": "Required for HTTP cookie encryption"
+        	"ext-mcrypt": "Required for HTTP cookie encryption",
+        	"twig/twig": "Twig templating system"
 	 },
 	"autoload": {
 	        "psr-0": { "SlimMidias": "." }
 	}
 }
+
+  
+    
