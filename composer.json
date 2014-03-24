@@ -1,9 +1,9 @@
 {
 	"name": "midiasEducativas/slimMidias",
 	"type": "library",
-	"description": "Slim Framework, a PHP micro framework",
+	"description": "Arquitetura da empresa Mídias Educativas para projetos PHP com Slim Framework",
 	"keywords": ["microframework","rest","router"],
-	"homepage": "http://github.com/codeguy/Slim",
+	"homepage": "https://github.com/teoria/SlimMidias",
 	"license": "MIT",
 	"authors": [
 	        {
