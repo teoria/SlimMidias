@@ -13,8 +13,11 @@
 	        }
 	],
 	"require": {
+
+		"php": ">=5.3.0",
+		"slim/views": "0.*",
+        "twig/twig": "1.*"
 		"slim/slim": ">=2.4.0",
-		"php": ">=5.3.0"
 	},
 	"suggest": {
         	"ext-mcrypt": "Required for HTTP cookie encryption",
