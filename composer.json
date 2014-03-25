@@ -19,9 +19,6 @@
         "twig/twig": "1.*",
 		"slim/slim": ">=2.4.0"
 	},
-	"suggest": {
-        	"ext-mcrypt": "Required for HTTP cookie encryption"
-	 },
 	"autoload": {	     
         "classmap": ["SlimMidias/"]
 	}
