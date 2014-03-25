@@ -23,11 +23,8 @@
         	"ext-mcrypt": "Required for HTTP cookie encryption",
         	"twig/twig": "Twig templating system"
 	 },
-	"autoload": {
-	        
-        "classmap": [
-            "vendor/midias-educativas/slim-midias/slimMidias"
-        ]
+	"autoload": {	     
+        "classmap": ["SlimMidias/"]
 	}
 }
 
