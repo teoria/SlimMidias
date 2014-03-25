@@ -24,7 +24,10 @@
         	"twig/twig": "Twig templating system"
 	 },
 	"autoload": {
-	        "psr-0": { "SlimMidias": "." }
+	        
+        "classmap": [
+            "vendor/midias-educativas/slim-midias/slimMidias"
+        ]
 	}
 }
 
