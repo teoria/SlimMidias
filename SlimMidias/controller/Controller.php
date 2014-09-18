@@ -7,10 +7,11 @@ Class Controller extends \Slim\Slim
 	public function __construct()
 	{
 
+        $path = VIEW_PATH;
         $settings = array(
             'view' => new \Slim\Views\Twig(),
             'debug' => true,
-            'templates.path' => '../app/views'
+            'templates.path' => $path
 
         );
 

@@ -7,8 +7,13 @@ class Conex{
     private function __construct()
     {
 
-       require("../settings_db.php");
-
+       //require("../settings_db.php");
+        $engine = $GLOBALS['engine'];
+        $database = $GLOBALS['database'];
+        $host = $GLOBALS['host'];
+        $user = $GLOBALS['user'];
+        $pass = $GLOBALS['pass'];
+        
         try{
             $this->pdo = new PDO($engine.':dbname='.$database.';host='.$host, $user, $pass)or print (mysql_error());
         }catch(PDOException $e){
