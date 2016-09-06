@@ -7,11 +7,17 @@ Class Controller extends \Slim\Slim
 	public function __construct()
 	{
 
+        $logger = new \Flynsarmy\SlimMonolog\Log\MonologWriter(array(
+            'handlers' => array(
+                new \Monolog\Handler\StreamHandler('./logs/'.date('Y-m-d').'.log'),
+            ),
+        ));
         $path = VIEW_PATH;
         $settings = array(
             'view' => new \Slim\Views\Twig(),
             'debug' => true,
-            'templates.path' => $path
+            'templates.path' => $path,
+            'log.writer' => $logger
 
         );
 
