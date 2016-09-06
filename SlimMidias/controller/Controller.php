@@ -56,7 +56,7 @@ Class Controller extends \Slim\Slim
         $serializer = JMS\Serializer\SerializerBuilder::create()->build();
         $jsonContent = $serializer->serialize($data, 'json');
 
-        return $serializer;
+        return $jsonContent;
 
     }
 
