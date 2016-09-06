@@ -28,7 +28,7 @@ class Conex{
             self::$instance = new $c;
         }
         return self::$instance;
-    }
+    } 
 
     public function getPDO(){
         return $this->pdo;
