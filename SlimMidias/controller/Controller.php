@@ -52,7 +52,22 @@ Class Controller extends \Slim\Slim
     }
 
 
+    public function json_encode($data){
+        $serializer = JMS\Serializer\SerializerBuilder::create()->build();
+        $jsonContent = $serializer->serialize($data, 'json');
 
+        return $serializer;
+
+    }
+
+
+    public function json_decode($data_json, $tipo){
+        $serializer = JMS\Serializer\SerializerBuilder::create()->build();
+        $object = $serializer->deserialize($data_json, $tipo, 'json');
+
+        return $object;
+
+    }
 
 }
 
